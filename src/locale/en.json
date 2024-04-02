@@ -1,0 +1,20 @@
+{
+  "Commaon": {},
+  "Header": {
+    "title": "Goledo"
+  },
+  "SupplyAndBorrow": {
+    "title": "Account Supplying and Borrowing Records",
+    "token": "Token",
+    "supplying": "Supplying",
+    "borrowing": "Borrowing",
+    "placeholder": "Input your account address",
+    "errMsg": "Invalid address"
+  },
+  "Records": {
+    "title": "Reimbursement Records",
+    "account": "Account",
+    "value": "Value",
+    "dateTime": "DateTime"
+  }
+}

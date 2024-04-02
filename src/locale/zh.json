@@ -1,0 +1,20 @@
+{
+  "commaon": {},
+  "Header": {
+    "title": "Goledo"
+  },
+  "SupplyAndBorrow": {
+    "title": "个人存款和借款记录",
+    "token": "代币",
+    "supplying": "存款",
+    "borrowing": "借款",
+    "placeholder": "输入个人账户地址",
+    "errMsg": "地址格式错误"
+  },
+  "Records": {
+    "title": "赔偿记录",
+    "account": "账户",
+    "value": "价值",
+    "dateTime": "日期"
+  }
+}
