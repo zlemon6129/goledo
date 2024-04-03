@@ -155,6 +155,7 @@ export default function SupplyAndBorrow() {
   return (
     <div className="w-full">
       <h1 className="text-xl">{t("title")}</h1>
+      <span className="text-gray-500">{t("notes")}</span>
       <Search
         className="mt-4"
         placeholder={t("placeholder")}
@@ -172,6 +173,22 @@ export default function SupplyAndBorrow() {
         columns={columns}
         pagination={false}
         loading={loading}
+        scroll={{ x: "max-content" }}
+        footer={() =>
+          value && isValid ? (
+            <div>
+              <span>{t("check")}</span>
+              <Link
+                href={`${process.env.NEXT_PUBLIC_ESpaceScanUrl}/address/${value}`}
+                target="_blank"
+              >
+                {value}
+              </Link>
+            </div>
+          ) : (
+            <span className="invisible">.</span>
+          )
+        }
       />
     </div>
   );

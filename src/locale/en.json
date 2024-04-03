@@ -5,14 +5,17 @@
   },
   "SupplyAndBorrow": {
     "title": "Account Supplying and Borrowing Records",
+    "notes": "The supplying and borrowing data on the home page of Goledo's official website are values after interest calculation and are not accurate. \nAccurate personal supplying and borrowing data can be queried below.",
     "token": "Token",
     "supplying": "Supplying",
     "borrowing": "Borrowing",
     "placeholder": "Input your account address",
-    "errMsg": "Invalid address"
+    "errMsg": "Invalid address",
+    "check": "Check on ConfluxScan: "
   },
   "Records": {
     "title": "Reimbursement Records",
+    "notes": "The table below lists the reimbursement records of the first and second waves (note: only CFX data is counted, USDT data is not counted).",
     "account": "Account",
     "value": "Value",
     "dateTime": "DateTime"

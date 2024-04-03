@@ -44,7 +44,7 @@ export default function MyLayout({
           alignItems: "center",
           backgroundColor: "#999",
         }}
-        className="flex justify-between"
+        className="flex justify-between z-50"
       >
         <span className="text-2xl">{t("title")}</span>
 

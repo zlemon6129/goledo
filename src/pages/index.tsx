@@ -5,11 +5,14 @@ import Head from "next/head";
 
 export default function Home() {
   return (
-    <div className="w-full p-10">
+    <div className="w-full p-[2%]">
       <Head>
         <title>Goledo</title>
         <meta charSet="utf-8" />
-        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+        <meta
+          name="viewport"
+          content="initial-scale=1.0, widgth=device-width"
+        />
       </Head>
 
       <SupplyAndBorrow></SupplyAndBorrow>

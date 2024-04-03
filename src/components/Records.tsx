@@ -75,11 +75,13 @@ export default function Records() {
   return (
     <div className="w-full">
       <h1 className="text-xl">{t("title")}</h1>
+      <span className="text-gray-500">{t("notes")}</span>
       <Table
         className="mt-4"
         dataSource={data}
         columns={columns}
         rowKey={"To"}
+        scroll={{ x: "max-content" }}
       />
     </div>
   );

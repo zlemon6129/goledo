@@ -5,14 +5,17 @@
   },
   "SupplyAndBorrow": {
     "title": "个人存款和借款记录",
+    "notes": "Goledo 官网首页的存款和借款数据是计算利息后的值，并不准确。\n准确的个人借贷数据可以通过下面进行查询。",
     "token": "代币",
     "supplying": "存款",
     "borrowing": "借款",
     "placeholder": "输入个人账户地址",
-    "errMsg": "地址格式错误"
+    "errMsg": "地址格式错误",
+    "check": "在 ConfluxScan 上查看："
   },
   "Records": {
     "title": "赔偿记录",
+    "notes": "下面的表格中罗列了第一阶段和第二阶段的赔付记录（注意：只统计了 CFX 的数据，没有统计 USDT 数据）。",
     "account": "账户",
     "value": "价值",
     "dateTime": "日期"
